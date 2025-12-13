@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Search Console Verification (ضع الكود الخاص بك هنا لاحقاً) -->
+    <!-- <meta name="google-site-verification" content="YOUR_CODE_HERE" /> -->
+
+    <!-- تحسينات السرعة (Performance Optimization) -->
+    <link rel="preconnect" href="https://cdn.tailwindcss.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="logo.jpg">
+    
+    <!-- SEO Meta Tags -->
+    <title>عمر عاطف | أخصائي تحسين محركات البحث والتسويق الرقمي</title>
+    <meta name="description" content="أخصائي تحسين محركات البحث في مصر. أساعد الشركات على زيادة الزيارات العضوية وعائد الاستثمار من خلال عمليات التدقيق الفني والاستراتيجيات القائمة على البيانات.">
+    <meta name="keywords" content="SEO Specialist, Digital Marketing, ROI SEO, Technical Audit, E-commerce SEO, Google Analytics 4, Egypt, عمر عاطف, خبير سيو">
+    <meta name="author" content="Omar Atef">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="عمر عاطف | أخصائي تحسين محركات البحث والتسويق الرقمي">
+    <meta property="og:description" content="أحقق النمو العضوي، وزيادة الزيارات، وعائد الاستثمار من خلال استراتيجيات قائمة على البيانات.">
+    <meta property="og:image" content="logo.jpg">
+
+    <!-- Libraries -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: { bg: '#0f172a', card: 'rgba(30, 41, 59, 0.90)', text: '#f8fafc' },
+                        light: { bg: '#f8fafc', card: 'rgba(255, 255, 255, 0.95)', text: '#1e293b' }
+                    },
+                    animation: { 'float': 'float 6s ease-in-out infinite' },
+                    keyframes: { float: { '0%, 100%': { transform: 'translateY(0)' }, '50%': { transform: 'translateY(-10px)' } } }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+    
+    <style>
+        :root { --font-ar: 'Tajawal', sans-serif; --font-en: 'Inter', sans-serif; }
+        body { font-family: var(--font-ar); scroll-behavior: smooth; transition: background-color 0.3s, color 0.3s; }
+        body.lang-en { font-family: var(--font-en); }
+        .gradient-text { background: linear-gradient(135deg, #60A5FA, #3B82F6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-card { border: 1px solid; transition: transform 0.3s ease, box-shadow 0.3s ease; backdrop-filter: blur(8px); }
+        .dark .glass-card { background: rgba(30, 41, 59, 0.8); border-color: rgba(255, 255, 255, 0.05); }
+        .glass-card { background: rgba(255, 255, 255, 0.95); border-color: rgba(0, 0, 0, 0.05); box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        .sparkle-btn { background: linear-gradient(45deg, #2563EB, #4F46E5); transition: all 0.3s ease; }
+        .sparkle-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 20px -10px rgba(67, 56, 202, 0.3); }
+        /* Scrollbar */
+        .custom-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
+        .dark .custom-scroll::-webkit-scrollbar-track { background: rgba(30, 41, 59, 0.5); }
+        .custom-scroll::-webkit-scrollbar-track { background: rgba(203, 213, 225, 0.5); }
+        .custom-scroll::-webkit-scrollbar-thumb { background: #3B82F6; border-radius: 10px; }
+    </style>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-50 selection:bg-blue-500 selection:text-white transition-colors duration-300">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-sm border-b border-slate-200 dark:border-slate-800 shadow-sm dark:shadow-lg transition-colors duration-300">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- LOGO AND BRAND NAME -->
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="logo.jpg" alt="Omar Logo" class="w-8 h-8 rounded-lg object-cover border border-slate-200 dark:border-slate-700 shadow-sm group-hover:scale-110 transition-transform duration-300" onerror="this.style.display='none'">
+                <span class="text-2xl font-bold text-blue-600 dark:text-blue-500 tracking-tighter group-hover:text-blue-500 transition">OMAR<span class="text-slate-800 dark:text-white">ATEF.</span></span>
+            </a>
+            
+            <div class="flex items-center gap-4 sm:gap-6">
+                <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
+                    <a href="#about" class="hover:text-blue-600 dark:hover:text-blue-400 transition" data-i18n="nav_about">من أنا</a>
+                    <a href="#projects" class="hover:text-blue-600 dark:hover:text-blue-400 transition font-bold text-blue-600 dark:text-blue-400" data-i18n="nav_projects">أعمالي</a>
+                    <a href="#certifications" class="hover:text-blue-600 dark:hover:text-blue-400 transition" data-i18n="nav_certs">الشهادات</a>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <button onclick="toggleTheme()" class="p-2 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition border border-slate-200 dark:border-slate-700">
+                        <i data-lucide="sun" class="w-4 h-4 hidden dark:block"></i>
+                        <i data-lucide="moon" class="w-4 h-4 block dark:hidden"></i>
+                    </button>
+                    <button onclick="toggleLanguage()" class="flex items-center gap-2 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 border border-slate-200 dark:border-slate-700 px-3 py-1.5 rounded-full transition text-xs font-bold text-slate-700 dark:text-white">
+                        <i data-lucide="globe" class="w-4 h-4"></i>
+                        <span id="lang-text">English</span>
+                    </button>
+                    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-bold transition shadow-lg shadow-blue-500/30 hidden sm:block" data-i18n="nav_contact">
+                        تواصل معي
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+        <div class="hidden md:block absolute top-0 left-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+            <div class="absolute top-20 left-20 w-72 h-72 bg-blue-400/10 dark:bg-blue-600/20 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-20 right-20 w-96 h-96 bg-indigo-400/10 dark:bg-indigo-600/10 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
+        </div>
+        
+        <div class="container mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2 text-center md:text-start">
+                <div class="inline-block bg-blue-100 dark:bg-blue-900/30 border border-blue-200 dark:border-blue-500/30 rounded-full px-4 py-1 mb-6">
+                    <span class="text-blue-600 dark:text-blue-400 text-sm font-semibold flex items-center gap-2">
+                        <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                        <span data-i18n="hero_badge">متاح للعمل (Open to Work)</span>
+                    </span>
+                </div>
+                <!-- Updated H1 -->
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-slate-900 dark:text-white" data-i18n="hero_title">
+                    أخصائي تحسين محركات البحث <span class="gradient-text">والتسويق الرقمي</span>
+                </h1>
+                <!-- Updated Sub-headline -->
+                <h2 class="text-xl md:text-2xl font-semibold text-slate-700 dark:text-slate-300 mb-6" data-i18n="hero_subtitle">
+                    أحقق النمو العضوي، وزيادة الزيارات، وعائد الاستثمار من خلال استراتيجيات قائمة على البيانات.
+                </h2>
+                
+                <!-- Updated About Text -->
+                <p class="text-lg text-slate-600 dark:text-slate-400 mb-6 leading-relaxed max-w-2xl border-r-4 border-blue-500 pr-4 dark:border-blue-400" data-i18n="hero_desc">
+                    أُسهّل الربط بين التسويق الإبداعي والنمو المالي. بخلفيتي المحاسبية، أركز على عائد الاستثمار، وليس فقط على ترتيب الموقع.
+                </p>
+
+                <!-- Tech Stack -->
+                <div class="mb-8">
+                    <p class="text-sm font-bold text-slate-500 dark:text-slate-400 mb-3 uppercase tracking-wider" data-i18n="tech_stack_title">المهارات الأساسية:</p>
+                    <div class="flex flex-wrap gap-2 justify-center md:justify-start" id="tech-stack-container">
+                        <span class="px-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-md text-xs font-bold border border-slate-300 dark:border-slate-700">Google Analytics 4</span>
+                        <span class="px-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-md text-xs font-bold border border-slate-300 dark:border-slate-700">Google Search Console</span>
+                        <span class="px-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-md text-xs font-bold border border-slate-300 dark:border-slate-700">SEMrush</span>
+                        <span class="px-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-md text-xs font-bold border border-slate-300 dark:border-slate-700">Ubersuggest</span>
+                        <span class="px-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-md text-xs font-bold border border-slate-300 dark:border-slate-700" data-i18n="tech_audit">التدقيق الفني</span>
+                        <span class="px-3 py-1 bg-slate-200 dark:bg-slate-800 text-slate-700 dark:text-slate-300 rounded-md text-xs font-bold border border-slate-300 dark:border-slate-700" data-i18n="tech_ecom">سيو التجارة الإلكترونية</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="#contact" class="sparkle-btn text-white px-8 py-4 rounded-xl font-bold flex items-center justify-center gap-2 shadow-lg shadow-blue-500/20 transform hover:scale-105 transition-transform">
+                        <i data-lucide="mail"></i>
+                        <span data-i18n="btn_hire">تواصل معي</span>
+                    </a>
+                    <a href="#projects" class="bg-white dark:bg-slate-800 text-slate-700 dark:text-white hover:bg-slate-50 dark:hover:bg-slate-700 px-8 py-4 rounded-xl font-bold transition border border-slate-200 dark:border-slate-700 flex items-center justify-center gap-2 hover:shadow-md">
+                        <i data-lucide="layers"></i>
+                        <span data-i18n="btn_projects">شاهد أعمالي</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 flex justify-center relative">
+                <div class="relative w-80 h-80 md:w-96 md:h-96 group">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-3xl rotate-6 opacity-20 dark:opacity-50 group-hover:rotate-12 transition duration-500"></div>
+                    <div class="absolute inset-0 bg-white dark:bg-slate-800 rounded-3xl -rotate-3 border border-slate-200 dark:border-slate-700 overflow-hidden shadow-2xl transition duration-500 group-hover:-rotate-6">
+                        <img src="https://api.dicebear.com/9.x/notionists/svg?seed=OmarSEO&backgroundColor=e0e7ff&glasses=variant12&gesture=pointingUp" 
+                             alt="Omar Atef" 
+                             width="400" height="400"
+                             class="w-full h-full object-cover bg-slate-100 dark:bg-slate-800" 
+                             loading="eager"
+                             onerror="this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-slate-100 dark:bg-slate-900 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white" data-i18n="projects_title">معرض الأعمال 💼</h2>
+                <div class="h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
+                <p class="text-slate-600 dark:text-slate-400 mt-4 max-w-2xl mx-auto" data-i18n="projects_subtitle">قصص نجاح حقيقية مبنية على الأرقام والنتائج.</p>
+            </div>
+
+            <!-- FEATURED PROJECT: Rasin Online -->
+            <div class="mb-16">
+                <div class="glass-card rounded-3xl overflow-hidden border border-blue-500/30 shadow-2xl shadow-blue-500/10 hover:shadow-blue-500/20 transition-all duration-300">
+                    <div class="bg-blue-600/10 dark:bg-blue-900/30 p-2 text-center border-b border-blue-500/20">
+                        <span class="text-xs font-bold text-blue-600 dark:text-blue-400 uppercase tracking-widest flex items-center justify-center gap-2">
+                            <i data-lucide="star" class="w-3 h-3 fill-current"></i> <span data-i18n="p_featured_badge">دراسة حالة مميزة (Featured Case Study)</span>
+                        </span>
+                    </div>
+                    <div class="grid lg:grid-cols-12 gap-0">
+                        <!-- Project Info -->
+                        <div class="lg:col-span-7 p-8 lg:p-10 flex flex-col justify-center bg-white/50 dark:bg-transparent">
+                            <div class="flex items-center justify-between mb-4">
+                                <h3 class="text-3xl font-bold text-slate-900 dark:text-white" data-i18n="rasin_title">Rasin Online</h3>
+                                <span class="bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 text-xs font-bold px-3 py-1 rounded-full" data-i18n="rasin_role">SEO Specialist</span>
+                            </div>
+                            <p class="text-blue-600 dark:text-blue-400 font-bold mb-6 text-sm" data-i18n="rasin_subtitle">هيمنة تدريجية على سوق الاستقدام السعودي</p>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <h4 class="font-bold text-slate-800 dark:text-slate-200 mb-2 flex items-center gap-2">
+                                        <i data-lucide="target" class="w-4 h-4 text-red-500"></i> <span data-i18n="rasin_challenge_title">التحدي (The Challenge)</span>
+                                    </h4>
+                                    <p class="text-sm text-slate-600 dark:text-slate-400 leading-relaxed border-r-2 border-red-500 pr-3" data-i18n="rasin_challenge_desc">
+                                        "ظهور عشوائي" بكلمات غير مستهدفة وترتيب متأخر (Avg Position 8.9). الهدف كان تنظيف الملف التعريفي والتركيز على الكلمات ذات النية الشرائية.
+                                    </p>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-slate-800 dark:text-slate-200 mb-2 flex items-center gap-2">
+                                        <i data-lucide="zap" class="w-4 h-4 text-yellow-500"></i> <span data-i18n="rasin_solution_title">الحل (The Solution)</span>
+                                    </h4>
+                                    <ul class="text-sm text-slate-600 dark:text-slate-400 list-disc list-inside space-y-1" data-i18n="rasin_solution_list">
+                                        <li>إعادة هيكلة الكلمات المفتاحية (Long-tail Keywords).</li>
+                                        <li>تحسين الـ On-Page SEO (H-Tags & Content).</li>
+                                        <li>دعم السوشيال (Social Signals) لبناء Trust Authority.</li>
+                                    </ul>
+                                </div>
+                                <div class="bg-green-50 dark:bg-green-900/20 p-4 rounded-xl border border-green-200 dark:border-green-800/50">
+                                    <h4 class="font-bold text-green-700 dark:text-green-400 mb-3 flex items-center gap-2">
+                                        <i data-lucide="trending-up" class="w-4 h-4"></i> <span data-i18n="rasin_results_title">النتائج بالأرقام (The Results)</span>
+                                    </h4>
+                                    <div class="grid grid-cols-3 gap-4 text-center divide-x divide-x-reverse divide-green-200 dark:divide-green-800">
+                                        <div>
+                                            <span class="block text-2xl font-bold text-slate-900 dark:text-white">2.2%</span>
+                                            <span class="text-[10px] uppercase text-slate-500 dark:text-slate-400 font-bold" data-i18n="rasin_stat_ctr">تحسن معدل النقر (من 1.6%)</span>
+                                        </div>
+                                        <div>
+                                            <span class="block text-2xl font-bold text-slate-900 dark:text-white">+20%</span>
+                                            <span class="text-[10px] uppercase text-slate-500 dark:text-slate-400 font-bold" data-i18n="rasin_stat_clicks">زيادة النقرات</span>
+                                        </div>
+                                        <div>
+                                            <span class="block text-2xl font-bold text-slate-900 dark:text-white">6.7</span>
+                                            <span class="text-[10px] uppercase text-slate-500 dark:text-slate-400 font-bold" data-i18n="rasin_stat_pos">تحسن الترتيب (من 8.9)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project Images (Proof) -->
+                        <div class="lg:col-span-5 bg-slate-200 dark:bg-slate-800/50 border-r border-slate-200 dark:border-slate-700 p-6 flex flex-col gap-4">
+                            <!-- Removed Cover Thumbnail as requested -->
+                            
+                            <!-- Evidence 1: Optimization Phase -->
+                            <div class="relative h-48 rounded-xl overflow-hidden shadow-md border border-slate-300 dark:border-slate-600 group/img">
+                                <img src="rasin-optimization.jpg" onerror="this.src='https://placehold.co/600x300/1e293b/FFF?text=Oct+Data+Optimization'" alt="Optimization Phase Data" class="w-full h-full object-cover transition duration-500 group-hover/img:scale-105" loading="lazy">
+                                <div class="absolute bottom-0 left-0 w-full bg-slate-900/90 p-2 text-center">
+                                    <span class="text-white text-[10px] font-bold block" data-i18n="rasin_img1_caption">مرحلة التحسين (شهر 10)</span>
+                                </div>
+                            </div>
+
+                            <!-- Evidence 2: Growth Phase -->
+                            <div class="relative h-48 rounded-xl overflow-hidden shadow-md border border-slate-300 dark:border-slate-600 group/img">
+                                <img src="rasin-growth.jpg" onerror="this.src='https://placehold.co/600x300/1e293b/FFF?text=Nov+Data+Growth'" alt="Growth Phase Data" class="w-full h-full object-cover transition duration-500 group-hover/img:scale-105" loading="lazy">
+                                <div class="absolute bottom-0 left-0 w-full bg-green-900/90 p-2 text-center">
+                                    <span class="text-white text-[10px] font-bold block" data-i18n="rasin_img2_caption">مرحلة النمو (شهر 11)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects Grid -->
+            <div class="grid lg:grid-cols-2 xl:grid-cols-4 gap-6">
+                <!-- Project 1: Petshome -->
+                <div class="glass-card rounded-2xl overflow-hidden group hover:shadow-xl flex flex-col">
+                    <div class="relative h-40 bg-slate-200 dark:bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Petshome" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500" loading="lazy">
+                        <div class="absolute top-3 right-3 bg-blue-600 text-white text-[10px] font-bold px-2 py-1 rounded-full">E-Commerce</div>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1">Petshome.com.eg</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 flex-grow line-clamp-3" data-i18n="p1_desc">قدت استراتيجية SEO شاملة لمتجر إلكتروني لمستلزمات الحيوانات الأليفة.</p>
+                        <div class="bg-blue-50 dark:bg-blue-900/20 p-2 rounded border border-blue-100 dark:border-blue-800">
+                            <h4 class="text-[10px] font-bold text-blue-600 dark:text-blue-400 mb-0.5" data-i18n="result_label">النتيجة:</h4>
+                            <p class="text-[10px] text-slate-700 dark:text-slate-300" data-i18n="p1_result">إصلاح أكثر من 15 خطأ تقني حرج واستهداف نمو 30% في الزيارات العضوية.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Aldiyar -->
+                <div class="glass-card rounded-2xl overflow-hidden group hover:shadow-xl flex flex-col">
+                    <div class="relative h-40 bg-slate-200 dark:bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Aldiyar" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500" loading="lazy">
+                        <div class="absolute top-3 right-3 bg-orange-600 text-white text-[10px] font-bold px-2 py-1 rounded-full">Audit</div>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1" data-i18n="aldiyar_title">الديار العصرية</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 flex-grow line-clamp-3" data-i18n="aldiyar_desc">تدقيق شامل للموقع (Full Site Audit) واكتشاف الفرص.</p>
+                        <div class="bg-orange-50 dark:bg-orange-900/20 p-2 rounded border border-orange-100 dark:border-orange-800">
+                            <h4 class="text-[10px] font-bold text-orange-600 dark:text-orange-400 mb-0.5" data-i18n="result_label">النتيجة:</h4>
+                            <p class="text-[10px] text-slate-700 dark:text-slate-300" data-i18n="aldiyar_result">تحليل قوة النطاق واكتشاف مشاكل الأرشفة.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Dr. Demetrius -->
+                <div class="glass-card rounded-2xl overflow-hidden group hover:shadow-xl flex flex-col">
+                    <div class="relative h-40 bg-slate-200 dark:bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Dr. Demetrius" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500" loading="lazy">
+                        <div class="absolute top-3 right-3 bg-green-600 text-white text-[10px] font-bold px-2 py-1 rounded-full">Audit</div>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1" data-i18n="p2_title">Dr. Demetrius</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 flex-grow line-clamp-3" data-i18n="p2_desc">أجريتُ تدقيقًا تقنيًا شاملًا لتحسين محركات البحث (SEO).</p>
+                        <div class="bg-green-50 dark:bg-green-900/20 p-2 rounded border border-green-100 dark:border-green-800">
+                            <h4 class="text-[10px] font-bold text-green-600 dark:text-green-400 mb-0.5" data-i18n="result_label">النتيجة:</h4>
+                            <p class="text-[10px] text-slate-700 dark:text-slate-300" data-i18n="p2_result">قدمتُ خطة عمل لإصلاح مشاكل الفهرسة ونقص البيانات الوصفية.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Sports Nutrition Wales -->
+                <div class="glass-card rounded-2xl overflow-hidden group hover:shadow-xl flex flex-col">
+                    <div class="relative h-40 bg-slate-200 dark:bg-slate-800">
+                        <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Sports Nutrition" class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition duration-500" loading="lazy">
+                        <div class="absolute top-3 right-3 bg-purple-600 text-white text-[10px] font-bold px-2 py-1 rounded-full">Intl. SEO</div>
+                    </div>
+                    <div class="p-5 flex-grow flex flex-col">
+                        <h3 class="text-lg font-bold text-slate-900 dark:text-white mb-1" data-i18n="p3_title">التغذية الرياضية (UK)</h3>
+                        <p class="text-xs text-slate-600 dark:text-slate-400 mb-3 flex-grow line-clamp-3" data-i18n="p3_desc">أجريتُ بحثًا عن الكلمات المفتاحية لسوق المملكة المتحدة (الطلب الموسمي).</p>
+                        <div class="bg-purple-50 dark:bg-purple-900/20 p-2 rounded border border-purple-100 dark:border-purple-800">
+                            <h4 class="text-[10px] font-bold text-purple-600 dark:text-purple-400 mb-0.5" data-i18n="result_label">النتيجة:</h4>
+                            <p class="text-[10px] text-slate-700 dark:text-slate-300" data-i18n="p3_result">تحسين استراتيجية المحتوى الدولي.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Tools Section -->
+    <section id="ai-tools" class="py-20 bg-slate-50 dark:bg-slate-900 relative overflow-hidden transition-colors duration-300">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center gap-2 bg-indigo-100 dark:bg-indigo-900/50 border border-indigo-200 dark:border-indigo-500/30 px-4 py-1 rounded-full mb-4"><i data-lucide="sparkles" class="w-4 h-4 text-indigo-600 dark:text-indigo-400"></i><span class="text-indigo-600 dark:text-indigo-300 text-xs font-bold">Powered by Gemini AI</span></div>
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-slate-900 dark:text-white" data-i18n="ai_title">جرب خبرتي الرقمية الآن</h2>
+                <p class="text-slate-600 dark:text-slate-400 text-sm" data-i18n="ai_demo">(نسخة العرض التجريبي - Demo Mode)</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                <!-- Tool 1: Headline -->
+                <div class="glass-card rounded-2xl p-6 border border-indigo-200 dark:border-indigo-500/30 shadow-lg flex flex-col h-full">
+                    <div class="flex items-center gap-3 mb-6"><div class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center text-white"><i data-lucide="type" class="w-5 h-5"></i></div><div><h3 class="font-bold text-lg text-slate-900 dark:text-white" data-i18n="tool1_title">محلل العناوين</h3><p class="text-xs text-slate-500 dark:text-slate-400" data-i18n="tool1_sub">تحسين نسبة النقر (CTR)</p></div></div>
+                    <div class="space-y-4 flex-grow">
+                        <input type="text" id="titleInput" placeholder="مثال: أفضل أطعمة للقطط في مصر" class="glass-input w-full px-4 py-3 rounded-xl placeholder-slate-400 text-sm" data-i18n-ph="tool1_ph">
+                        <div id="titleResult" class="hidden bg-slate-100 dark:bg-slate-800/50 rounded-xl p-4 text-sm border border-slate-200 dark:border-slate-700 prose" dir="auto"></div>
+                    </div>
+                    <button onclick="analyzeTitle()" id="titleBtn" class="mt-6 sparkle-btn w-full py-3 rounded-xl font-bold text-white flex items-center justify-center gap-2"><span id="titleBtnText" data-i18n="tool1_btn">حلل العنوان الآن</span><i data-lucide="sparkles" class="w-4 h-4"></i></button>
+                </div>
+                <!-- Tool 2: Content Ideas -->
+                <div class="glass-card rounded-2xl p-6 border border-blue-200 dark:border-blue-500/30 shadow-lg flex flex-col h-full">
+                    <div class="flex items-center gap-3 mb-6"><div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center text-white"><i data-lucide="lightbulb" class="w-5 h-5"></i></div><div><h3 class="font-bold text-lg text-slate-900 dark:text-white" data-i18n="tool2_title">مولد الأفكار</h3><p class="text-xs text-slate-500 dark:text-slate-400" data-i18n="tool2_sub">استراتيجية محتوى</p></div></div>
+                    <div class="space-y-4 flex-grow">
+                        <input type="text" id="nicheInput" placeholder="مثال: صيانة السيارات" class="glass-input w-full px-4 py-3 rounded-xl placeholder-slate-400 text-sm" data-i18n-ph="tool2_ph">
+                        <div id="contentResult" class="hidden bg-slate-100 dark:bg-slate-800/50 rounded-xl p-4 text-sm border border-slate-200 dark:border-slate-700 prose" dir="auto"></div>
+                    </div>
+                    <button onclick="generateIdeas()" id="contentBtn" class="mt-6 bg-slate-700 hover:bg-slate-600 border border-slate-600 w-full py-3 rounded-xl font-bold text-white flex items-center justify-center gap-2"><span id="contentBtnText" data-i18n="tool2_btn">اقترح أفكاراً ✨</span></button>
+                </div>
+                <!-- Tool 3: Meta Description -->
+                <div class="glass-card rounded-2xl p-6 border border-purple-200 dark:border-purple-500/30 shadow-lg flex flex-col h-full">
+                    <div class="flex items-center gap-3 mb-6"><div class="w-10 h-10 bg-purple-600 rounded-lg flex items-center justify-center text-white"><i data-lucide="file-text" class="w-5 h-5"></i></div><div><h3 class="font-bold text-lg text-slate-900 dark:text-white" data-i18n="tool3_title">مولد وصف الميتا</h3><p class="text-xs text-slate-500 dark:text-slate-400" data-i18n="tool3_sub">وصف جذاب لمحركات البحث</p></div></div>
+                    <div class="space-y-4 flex-grow">
+                        <input type="text" id="metaInput" placeholder="مثال: دليل السفر إلى دبي" class="glass-input w-full px-4 py-3 rounded-xl placeholder-slate-400 text-sm" data-i18n-ph="tool3_ph">
+                        <div id="metaResult" class="hidden bg-slate-100 dark:bg-slate-800/50 rounded-xl p-4 text-sm border border-slate-200 dark:border-slate-700 prose" dir="auto"></div>
+                    </div>
+                    <button onclick="generateMeta()" id="metaBtn" class="mt-6 bg-slate-700 hover:bg-slate-600 border border-slate-600 w-full py-3 rounded-xl font-bold text-white flex items-center justify-center gap-2"><span id="metaBtnText" data-i18n="tool3_btn">اكتب الوصف ✨</span></button>
+                </div>
+                <!-- Tool 4: SEO FAQ Generator (NEW) -->
+                <div class="glass-card rounded-2xl p-6 border border-green-200 dark:border-green-500/30 shadow-lg flex flex-col h-full">
+                    <div class="flex items-center gap-3 mb-6"><div class="w-10 h-10 bg-green-600 rounded-lg flex items-center justify-center text-white"><i data-lucide="message-circle-question" class="w-5 h-5"></i></div><div><h3 class="font-bold text-lg text-slate-900 dark:text-white" data-i18n="tool4_title">مولد الأسئلة (FAQ)</h3><p class="text-xs text-slate-500 dark:text-slate-400" data-i18n="tool4_sub">أسئلة لمحركات البحث</p></div></div>
+                    <div class="space-y-4 flex-grow">
+                        <input type="text" id="faqInput" placeholder="مثال: التسويق بالعمولة" class="glass-input w-full px-4 py-3 rounded-xl placeholder-slate-400 text-sm" data-i18n-ph="tool4_ph">
+                        <div id="faqResult" class="hidden bg-slate-100 dark:bg-slate-800/50 rounded-xl p-4 text-sm border border-slate-200 dark:border-slate-700 prose" dir="auto"></div>
+                    </div>
+                    <button onclick="generateFAQ()" id="faqBtn" class="mt-6 bg-slate-700 hover:bg-slate-600 border border-slate-600 w-full py-3 rounded-xl font-bold text-white flex items-center justify-center gap-2"><span id="faqBtnText" data-i18n="tool4_btn">أنشئ الأسئلة ✨</span></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-slate-100 dark:bg-slate-800/30 transition-colors duration-300">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12 text-center text-slate-900 dark:text-white" data-i18n="cert_title">الشهادات والاعتمادات</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Cert 1 -->
+                <div class="bg-white dark:bg-white p-1 rounded-2xl transform hover:scale-105 transition duration-300 h-full shadow-sm">
+                    <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl h-full flex flex-col">
+                        <div class="h-40 bg-slate-200 rounded-lg mb-4 overflow-hidden relative group cursor-pointer">
+                            <!-- Robust Image Loading with Fallback -->
+                            <img src="google-foundation.png" 
+                                 onerror="this.src='https://placehold.co/600x400/EEE/31343C?text=Foundation+Cert'" 
+                                 class="w-full h-full object-cover rounded-md" 
+                                 loading="lazy" 
+                                 alt="Google Foundation Certification">
+                        </div>
+                        <div class="flex items-center gap-2 mb-3 bg-white border border-slate-100 p-1.5 rounded-lg w-fit shadow-sm"><img src="https://www.vectorlogo.zone/logos/google/google-icon.svg" class="w-4 h-4" alt="Google Logo"><span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider">Google</span></div>
+                        <h3 class="text-slate-900 font-bold text-sm mb-1 leading-tight">Foundations of Digital Marketing & E-commerce</h3>
+                        <p class="text-slate-500 text-xs mb-4">Issued Jan 2025</p>
+                        <a href="https://coursera.org/verify/VNXE8MR96ZFE" target="_blank" class="mt-auto w-full text-center border border-slate-300 text-slate-600 text-xs font-bold py-2 rounded-lg hover:bg-slate-100 transition flex items-center justify-center gap-2"><i data-lucide="check-circle" class="w-3 h-3"></i> <span data-i18n="btn_verify">تحقق</span></a>
+                    </div>
+                </div>
+                <!-- Cert 2 -->
+                <div class="bg-white dark:bg-white p-1 rounded-2xl transform hover:scale-105 transition duration-300 h-full shadow-sm">
+                    <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl h-full flex flex-col">
+                        <div class="h-40 bg-slate-200 rounded-lg mb-4 overflow-hidden relative group cursor-pointer">
+                            <img src="google-attract.png" onerror="this.src='https://placehold.co/600x400/EEE/31343C?text=Attract+Cert'" class="w-full h-full object-cover rounded-md" loading="lazy" alt="Attract & Engage Certification">
+                        </div>
+                        <div class="flex items-center gap-2 mb-3 bg-white border border-slate-100 p-1.5 rounded-lg w-fit shadow-sm"><img src="https://www.vectorlogo.zone/logos/google/google-icon.svg" class="w-4 h-4" alt="Google Logo"><span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider">Google</span></div>
+                        <h3 class="text-slate-900 font-bold text-sm mb-1 leading-tight">Attract & Engage Customers with Digital Marketing</h3>
+                        <p class="text-slate-500 text-xs mb-4">Issued Aug 2025</p>
+                        <a href="https://coursera.org/verify/FU1CVX9YRDH3" target="_blank" class="mt-auto w-full text-center border border-slate-300 text-slate-600 text-xs font-bold py-2 rounded-lg hover:bg-slate-100 transition flex items-center justify-center gap-2"><i data-lucide="check-circle" class="w-3 h-3"></i> <span data-i18n="btn_verify">تحقق</span></a>
+                    </div>
+                </div>
+                <!-- Cert 3 -->
+                <div class="bg-white dark:bg-white p-1 rounded-2xl transform hover:scale-105 transition duration-300 h-full shadow-sm">
+                    <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl h-full flex flex-col">
+                        <div class="h-40 bg-slate-200 rounded-lg mb-4 overflow-hidden relative group cursor-pointer">
+                            <img src="google-likes.png" onerror="this.src='https://placehold.co/600x400/EEE/31343C?text=Likes+Cert'" class="w-full h-full object-cover rounded-md" loading="lazy" alt="Likes to Leads Certification">
+                        </div>
+                        <div class="flex items-center gap-2 mb-3 bg-white border border-slate-100 p-1.5 rounded-lg w-fit shadow-sm"><img src="https://www.vectorlogo.zone/logos/google/google-icon.svg" class="w-4 h-4" alt="Google Logo"><span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider">Google</span></div>
+                        <h3 class="text-slate-900 font-bold text-sm mb-1 leading-tight">From Likes to Leads: Interact with Customers Online</h3>
+                        <p class="text-slate-500 text-xs mb-4">Issued Sep 2025</p>
+                        <a href="https://coursera.org/verify/OB19XPO7J1DK" target="_blank" class="mt-auto w-full text-center border border-slate-300 text-slate-600 text-xs font-bold py-2 rounded-lg hover:bg-slate-100 transition flex items-center justify-center gap-2"><i data-lucide="check-circle" class="w-3 h-3"></i> <span data-i18n="btn_verify">تحقق</span></a>
+                    </div>
+                </div>
+                <!-- Cert 4 -->
+                <div class="bg-white dark:bg-white p-1 rounded-2xl transform hover:scale-105 transition duration-300 h-full shadow-sm">
+                    <div class="bg-slate-50 border border-slate-200 p-4 rounded-xl h-full flex flex-col">
+                        <div class="h-40 bg-slate-200 rounded-lg mb-4 overflow-hidden relative group cursor-pointer">
+                            <img src="ucdavis-seo.png" onerror="this.src='https://placehold.co/600x400/EEE/31343C?text=UC+Davis+Cert'" class="w-full h-full object-cover rounded-md" loading="lazy" alt="UC Davis SEO Certification">
+                        </div>
+                        <div class="flex items-center gap-2 mb-3 bg-white border border-slate-100 p-1.5 rounded-lg w-fit shadow-sm"><div class="w-5 h-5 bg-[#022851] rounded-full flex items-center justify-center text-white text-[9px] font-bold shrink-0" style="font-family: sans-serif;">UC</div><span class="text-[10px] font-bold text-slate-700 uppercase tracking-wider">UC Davis</span></div>
+                        <h3 class="text-slate-900 font-bold text-sm mb-1 leading-tight">Advanced Content and Social Tactics to Optimize SEO</h3>
+                        <p class="text-slate-500 text-xs mb-4">Issued Apr 2025</p>
+                        <a href="https://coursera.org/verify/EFWKTY81V0XS" target="_blank" class="mt-auto w-full text-center border border-slate-300 text-slate-600 text-xs font-bold py-2 rounded-lg hover:bg-slate-100 transition flex items-center justify-center gap-2"><i data-lucide="check-circle" class="w-3 h-3"></i> <span data-i18n="btn_verify">تحقق</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-b from-slate-100 to-blue-50 dark:from-slate-900 dark:to-blue-900/20 transition-colors duration-300">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6 text-slate-900 dark:text-white" data-i18n="contact_title">جاهز للبدء؟</h2>
+            <p class="text-xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto" data-i18n="contact_subtitle">متاح للعمل الحر والاستشارات. دعنا نناقش كيف يمكنني مساعدة مشروعك.</p>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-16">
+                <a href="mailto:omarabwowf9@gmail.com" class="group bg-white text-slate-900 px-6 py-4 rounded-xl font-bold text-sm md:text-base hover:bg-blue-50 transition shadow-lg flex items-center justify-center gap-3 hover:-translate-y-1 border border-slate-200"><div class="bg-blue-100 p-2 rounded-full group-hover:bg-blue-200 transition"><i data-lucide="mail" class="w-5 h-5 text-blue-600"></i></div><span>Email Me</span></a>
+                <a href="tel:+201154865543" class="group bg-white text-slate-900 px-6 py-4 rounded-xl font-bold text-sm md:text-base hover:bg-blue-50 transition shadow-lg flex items-center justify-center gap-3 hover:-translate-y-1 border border-slate-200"><div class="bg-blue-100 p-2 rounded-full group-hover:bg-blue-200 transition"><i data-lucide="phone" class="w-5 h-5 text-blue-600"></i></div><span>+20 11 5486 5543</span></a>
+                <a href="http://wa.me/201092613745" target="_blank" class="group bg-[#25D366] text-white px-6 py-4 rounded-xl font-bold text-sm md:text-base hover:bg-[#20bd5a] transition shadow-lg flex items-center justify-center gap-3 hover:-translate-y-1"><div class="bg-white/20 p-2 rounded-full"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/></svg></div><span>WhatsApp</span></a>
+                <a href="https://www.linkedin.com/in/omar-atef-abuouf" target="_blank" class="group bg-[#0077b5] text-white px-6 py-4 rounded-xl font-bold text-sm md:text-base hover:bg-[#006396] transition shadow-lg flex items-center justify-center gap-3 hover:-translate-y-1"><div class="bg-white/20 p-2 rounded-full"><i data-lucide="linkedin" class="w-5 h-5 text-white"></i></div><span>LinkedIn</span></a>
+            </div>
+
+            <div class="mt-8 pt-8 border-t border-slate-200 dark:border-slate-800 text-slate-500 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
+                <p>© <span id="year">2025</span> Omar Atef. All Rights Reserved.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function initIcons() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            } else {
+                setTimeout(initIcons, 100);
+            }
+        }
+        initIcons();
+
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        let isDark = localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage));
+        if (isDark) document.documentElement.classList.add('dark');
+        else document.documentElement.classList.remove('dark');
+
+        function toggleTheme() {
+            isDark = !isDark;
+            document.documentElement.classList.toggle('dark', isDark);
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        }
+
+        const translations = {
+            ar: {
+                page_title: "عمر عاطف | أخصائي تحسين محركات البحث والتسويق الرقمي",
+                nav_about: "من أنا", nav_skills: "المهارات", nav_projects: "أعمالي", nav_certs: "الشهادات", nav_contact: "تواصل معي",
+                nav_tools: "أدوات ذكية",
+                hero_badge: "متاح للعمل (Open to Work)",
+                hero_title: `أخصائي تحسين محركات البحث <span class="gradient-text">والتسويق الرقمي</span>`,
+                hero_subtitle: "أحقق النمو العضوي، وزيادة الزيارات، وعائد الاستثمار من خلال استراتيجيات قائمة على البيانات.",
+                hero_desc: "أُسهّل الربط بين التسويق الإبداعي والنمو المالي. بخلفيتي المحاسبية، أركز على عائد الاستثمار، وليس فقط على ترتيب الموقع.",
+                tech_stack_title: "المهارات الأساسية:",
+                tech_audit: "التدقيق الفني", tech_ecom: "سيو التجارة الإلكترونية",
+                btn_hire: "تواصل معي", btn_projects: "شاهد أعمالي",
+                projects_title: "معرض الأعمال 💼",
+                projects_subtitle: "قصص نجاح حقيقية مبنية على الأرقام والنتائج.",
+                p1_type: "استراتيجية شاملة (Technical + Content)",
+                p1_persona_title: "تحليل شخصية العميل (Buyer Persona)",
+                p1_persona_desc: `استهدفنا شخصية <strong class="text-slate-900 dark:text-white">"ليلى"</strong>: 28 سنة، القاهرة، تبحث عبر الموبايل عن "توصيل سريع".`,
+                p1_tech_title: "التدقيق التقني (Technical Fixes)",
+                p1_tech_list: `<li>إصلاح أخطاء 404 حرجة.</li><li>حل مشاكل Redirect Chains.</li>`,
+                p1_comp_title: "تحليل المنافسين وفجوة السوق",
+                p1_comp_weakness_title: "نقاط ضعف المنافسين (Happet, AminPetShop)",
+                p1_comp_weakness_list: `<li>غياب المحتوى التعليمي (المدونات).</li><li>عدم وجود أدلة استخدام (FAQs).</li><li>ضعف عناصر بناء الثقة (Reviews).</li>`,
+                p1_comp_opp_title: "فرصتنا للتصدر (Our Opportunity)",
+                p1_comp_opp_desc: `سد الفجوة بإنشاء <strong>محتوى تعليمي (Blogs & Guides)</strong> يجيب على أسئلة العملاء (مثل: كيفية اختيار الطعام المناسب)، مما يبني الثقة ويزيد معدل التحويل.`,
+                p2_title: "الديار العصرية", p2_subtitle: "تدقيق شامل (Full Site Audit)", p2_overview: "ملخص حالة الموقع",
+                p2_desc: "تحليل قوة النطاق والمشاكل التي تعيق الأرشفة.",
+                p2_critical: "مشاكل حرجة (Critical Issues)",
+                p2_issue1: "صفحات مهمة مخفية عن جوجل عن طريق الخطأ.", p2_issue2: "صور ضخمة تؤثر سلباً على سرعة التحميل.",
+                skills_title: "خبراتي وأدواتي",
+                skill_tech: "SEO التقني (Technical)", skill_tech_desc: "فحص شامل للموقع (Audit)، إصلاح أخطاء الزحف، وتحسين سرعة الموقع.",
+                skill_kw: "الكلمات المفتاحية", skill_kw_desc: "Keyword Research متقدم للكلمات ذات العائد المادي (High ROI).",
+                skill_ana: "التحليل والنمو", skill_ana_desc: "إتقان GA4 و Search Console لتحويل البيانات إلى خطط عمل.",
+                ai_title: "جرب خبرتي الرقمية الآن", ai_demo: "(نسخة العرض التجريبي - Demo Mode)",
+                tool1_title: "محلل العناوين", tool1_sub: "تحسين نسبة النقر (CTR)", tool1_ph: "مثال: أفضل أطعمة للقطط في مصر", tool1_btn: "حلل العنوان الآن",
+                tool2_title: "مولد الأفكار", tool2_sub: "استراتيجية محتوى", tool2_ph: "مثال: صيانة السيارات", tool2_btn: "اقترح أفكاراً ✨",
+                tool3_title: "مولد وصف الميتا", tool3_sub: "وصف جذاب لمحركات البحث", tool3_ph: "مثال: دليل السفر إلى دبي", tool3_btn: "اكتب الوصف ✨",
+                tool4_title: "مولد الأسئلة (FAQ)", tool4_sub: "أسئلة لمحركات البحث", tool4_ph: "مثال: التسويق بالعمولة", tool4_btn: "أنشئ الأسئلة ✨",
+                cert_title: "الشهادات والاعتمادات", cert_subtitle: "شهادات موثقة تثبت الكفاءة.", btn_verify: "تحقق",
+                contact_title: "جاهز لتحسين ترتيب موقعك؟", contact_subtitle: "متاح للعمل الحر والاستشارات. دعنا نناقش كيف يمكنني مساعدة مشروعك في النمو.",
+                
+                // Rasin Project Translations
+                rasin_title: "Rasin Online",
+                rasin_role: "SEO Specialist (Strategy & Execution)",
+                rasin_subtitle: "هيمنة تدريجية على سوق الاستقدام السعودي",
+                rasin_challenge_title: "التحدي (The Challenge)",
+                rasin_challenge_desc: "\"ظهور عشوائي\" بكلمات غير مستهدفة وترتيب متأخر (Avg Position 8.9). الهدف كان تنظيف الملف التعريفي والتركيز على الكلمات ذات النية الشرائية.",
+                rasin_solution_title: "الحل (The Solution)",
+                rasin_solution_list: `<li>إعادة هيكلة الكلمات المفتاحية (Long-tail Keywords).</li><li>تحسين الـ On-Page SEO (H-Tags & Content).</li><li>دعم السوشيال (Social Signals) لبناء Trust Authority.</li>`,
+                rasin_results_title: "النتائج بالأرقام (The Results)",
+                rasin_stat_ctr: "CTR (من 1.6%)",
+                rasin_stat_clicks: "زيادة النقرات",
+                rasin_stat_pos: "Avg Pos (من 8.9)",
+                rasin_img_cover_label: "الموقع الرئيسي",
+                rasin_img1_caption: "مرحلة التحسين (شهر 10)",
+                rasin_img2_caption: "مرحلة النمو (شهر 11)",
+                p_featured_badge: "دراسة حالة مميزة (Featured Case Study)",
+
+                // Other Projects
+                p1_desc: "قدت استراتيجية SEO شاملة لمتجر إلكتروني لمستلزمات الحيوانات الأليفة.",
+                p1_result: "إصلاح أكثر من 15 خطأ تقني حرج واستهداف نمو 30% في الزيارات العضوية.",
+                p2_title: "Dr. Demetrius",
+                p2_desc: "أجريتُ تدقيقًا تقنيًا شاملًا لتحسين محركات البحث (SEO).",
+                p2_result: "قدمتُ خطة عمل لإصلاح مشاكل الفهرسة ونقص البيانات الوصفية.",
+                p3_title: "التغذية الرياضية في ويلز (UK)",
+                p3_desc: "أجريتُ بحثًا عن الكلمات المفتاحية لسوق المملكة المتحدة (الطلب الموسمي).",
+                p3_result: "حسّنتُ استراتيجية المحتوى للجمهور الدولي.",
+                aldiyar_title: "الديار العصرية", aldiyar_desc: "تدقيق شامل للموقع (Full Site Audit) واكتشاف الفرص.", aldiyar_result: "تحليل قوة النطاق واكتشاف مشاكل الأرشفة.",
+                result_label: "النتيجة:"
+            },
+            en: {
+                page_title: "Omar Atef | SEO Specialist & Digital Marketer",
+                nav_about: "About", nav_skills: "Skills", nav_projects: "Portfolio", nav_certs: "Certifications", nav_contact: "Hire Me",
+                nav_tools: "AI Tools",
+                hero_badge: "Open to Work",
+                hero_title: `SEO Specialist <span class="gradient-text">& Digital Marketer</span>`,
+                hero_subtitle: "Driving Organic Growth, Traffic & ROI with Data-Driven Strategies.",
+                hero_desc: "I facilitate the link between creative marketing and financial growth. With my accounting background, I focus on ROI, not just rankings.",
+                tech_stack_title: "Core Skills:",
+                tech_audit: "Technical Audit", tech_ecom: "E-commerce SEO",
+                btn_hire: "Hire Me", btn_projects: "View Portfolio",
+                projects_title: "Portfolio 💼",
+                projects_subtitle: "Real success stories built on data and results.",
+                p_featured_badge: "⭐ Featured Case Study",
+                rasin_title: "Rasin Online",
+                rasin_role: "SEO Specialist (Strategy & Execution)",
+                rasin_subtitle: "Dominating the Saudi Recruitment Market",
+                rasin_challenge_title: "The Challenge",
+                rasin_challenge_desc: "High random impressions for untargeted keywords and poor ranking (Avg Pos 8.9). The goal was to clean the profile and focus on commercial intent keywords.",
+                rasin_solution_title: "The Solution",
+                rasin_solution_list: `<li>Keyword restructuring (Long-tail Keywords).</li><li>On-Page SEO improvements (H-Tags & Content).</li><li>Social Signals support to build Trust Authority.</li>`,
+                rasin_results_title: "The Results",
+                rasin_stat_ctr: "CTR (from 1.6%)",
+                rasin_stat_clicks: "Clicks Increase",
+                rasin_stat_pos: "Avg Pos (from 8.9)",
+                rasin_img1_caption: "Optimization Phase (Month 10): Focusing on Average Position & CTR",
+                rasin_img2_caption: "Growth Phase (Month 11): Increase in Clicks & Impressions after quality adjustments",
+                p1_desc: "Led comprehensive SEO strategy for an e-commerce pet store.",
+                p1_result: "Fixed 15+ critical technical errors and targeted 30% organic traffic growth.",
+                p2_title: "Dr. Demetrius",
+                p2_desc: "Conducted a comprehensive Technical SEO Audit.",
+                p2_result: "Provided an action plan to fix indexing issues and missing metadata.",
+                p3_title: "Sports Nutrition Wales (UK)",
+                p3_desc: "Conducted keyword research for the UK market (seasonal demand).",
+                p3_result: "Optimized content strategy for an international audience.",
+                aldiyar_title: "Aldiyar Alasrea", aldiyar_desc: "Full Site Audit and opportunity discovery.", aldiyar_result: "Analyzed Domain Authority and identified indexing issues.",
+                result_label: "Result:",
+                cert_title: "Certifications",
+                cert_subtitle: "Verified credentials from Google & UC Davis.",
+                btn_verify: "Verify",
+                contact_title: "Ready to Start?",
+                contact_subtitle: "Available for freelance & consulting. Let's discuss how I can help your project.",
+                ai_title: "Try My AI Tools", ai_demo: "(Demo Mode - Simulation)",
+                tool1_title: "Headline Analyzer", tool1_sub: "Improve CTR", tool1_ph: "Ex: Best cat food in Egypt", tool1_btn: "Analyze Now",
+                tool2_title: "Idea Generator", tool2_sub: "Content Strategy", tool2_ph: "Ex: Car Maintenance", tool2_btn: "Generate Ideas ✨",
+                tool3_title: "Meta Desc Generator", tool3_sub: "SEO-Optimized Snippets", tool3_ph: "Ex: Dubai Travel Guide", tool3_btn: "Generate Snippet ✨",
+                tool4_title: "FAQ Generator", tool4_sub: "SEO Questions", tool4_ph: "Ex: Affiliate Marketing", tool4_btn: "Generate FAQs ✨"
+            }
+        };
+
+        let currentLang = localStorage.getItem('lang') || 'ar';
+
+        function updateLanguage() {
+            const isEnglish = currentLang === 'en';
+            document.documentElement.lang = currentLang;
+            document.documentElement.dir = isEnglish ? 'ltr' : 'rtl';
+            document.body.classList.toggle('lang-en', isEnglish);
+            document.getElementById('lang-text').innerText = isEnglish ? "العربية" : "English";
+            
+            // Update Title
+            if (translations[currentLang].page_title) {
+                document.title = translations[currentLang].page_title;
+            }
+
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[currentLang][key]) el.innerHTML = translations[currentLang][key];
+            });
+
+            document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+                const key = el.getAttribute('data-i18n-ph');
+                if (translations[currentLang][key]) el.placeholder = translations[currentLang][key];
+            });
+            localStorage.setItem('lang', currentLang);
+        }
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'ar' ? 'en' : 'ar';
+            updateLanguage();
+        }
+        updateLanguage();
+
+        const apiKey = "AIzaSyAZLOR7jBNs6R089YeK_jAYmOieCobdZqg"; 
+
+        function getMockTitleResponse(input, lang) {
+            return lang === 'en' ? 
+            `### 📊 Headline Analysis: "${input}"\n**Score: 8/10**\n*Strong and clear, but could be more curiosity-driven.*\n**💡 Suggestions for higher CTR:**\n1. **"${input}: The 2025 Ultimate Guide"** - Adding the year builds trust.\n2. **"Secrets about ${input} You Didn't Know"** - Creates curiosity.\n3. **"How to Get the Best out of ${input}?"** - Focuses on utility.` :
+            `### 📊 تحليل العنوان: "${input}"\n**التقييم: 8/10**\n*عنوان جذاب وقوي، لكن يمكن تحسينه لإثارة فضول أكبر.*\n**💡 مقترحات لتحسين الـ CTR:**\n1. **"${input}: الدليل الشامل لعام 2025"** - إضافة السنة تزيد المصداقية.\n2. **"أسرار لا تعرفها عن ${input}"** - إثارة الفضول.\n3. **"كيف تحقق أقصى استفادة من ${input}؟"** - التركيز على الفائدة.`;
+        }
+
+        function getMockContentResponse(input, lang) {
+            return lang === 'en' ?
+            `### ✨ Content Ideas for: "${input}"\n**1. The Beginner's Guide**\n* **Title:** Everything you need to know about ${input}.\n* **Intent:** Informational.\n**2. Comparison Guide (Best for Sales)**\n* **Title:** Top 5 Products/Tools in ${input} for 2025.\n* **Intent:** Commercial.\n**3. Problem Solving**\n* **Title:** 5 Common Mistakes in ${input} and How to Avoid Them.\n* **Intent:** Educational.` :
+            `### ✨ أفكار محتوى لمجال: "${input}"\n**1. دليل المبتدئين الشامل**\n* **العنوان:** كل ما تحتاج معرفته عن ${input} من الصفر.\n* **نية البحث:** تعليمي (Informational).\n**2. مقال مقارنة (الأفضل للمبيعات)**\n* **العنوان:** أفضل 5 أدوات/منتجات في ${input} لعام 2025.\n* **نية البحث:** تجاري (Commercial).\n**3. حل المشكلات الشائعة**\n* **العنوان:** 5 أخطاء شائعة يقع فيها المبتدئون في ${input} وكيف تتجنبها.\n* **نية البحث:** تعليمي/توعوي.`;
+        }
+
+        function getMockMetaResponse(input, lang) {
+            return lang === 'en' ?
+            `### 📝 Generated Meta Description\n**Topic:** ${input}\n**Snippet (155 chars):**\n"Discover the ultimate guide to ${input}. Learn expert tips, avoid common mistakes, and boost your results today. Click to read the full breakdown!"\n**Why it works:** Includes target keyword, strong action verb ("Discover"), and a clear CTA ("Click to read").` :
+            `### 📝 وصف الميتا المقترح (Meta Description)\n**الموضوع:** ${input}\n**الوصف (155 حرف):**\n"اكتشف الدليل الشامل حول ${input}. تعلم أهم النصائح العملية وتجنب الأخطاء الشائعة لتحقيق أفضل النتائج. اضغط هنا لقراءة التفاصيل!"\n**لماذا يعمل:** يحتوي على الكلمة المفتاحية، فعل أمر (اكتشف)، ودعوة لاتخاذ إجراء (اضغط هنا).`;
+        }
+
+        function getMockFAQResponse(input, lang) {
+            return lang === 'en' ?
+            `### ❓ SEO FAQs for: "${input}"\n**Q1: What is ${input}?**\n*A:* A brief definition optimized for featured snippets.\n**Q2: How does ${input} work?**\n*A:* Step-by-step explanation.\n**Q3: Benefits of ${input}?**\n*A:* Bullet points listing key advantages.` :
+            `### ❓ أسئلة شائعة (FAQ) لـ: "${input}"\n**س1: ما هو ${input}؟**\n*ج:* تعريف مختصر ومباشر يستهدف مقتطفات جوجل.\n**س2: كيف يعمل ${input}؟**\n*ج:* شرح مبسط للخطوات.\n**س3: ما هي فوائد ${input}؟**\n*ج:* نقاط سريعة توضح المميزات الرئيسية.`;
+        }
+
+        async function fetchWithRetry(url, options, retries = 3, backoff = 1000) {
+            try {
+                const response = await fetch(url, options);
+                if (!response.ok) {
+                    if (response.status === 429 && retries > 0) {
+                         await new Promise(r => setTimeout(r, backoff));
+                         return fetchWithRetry(url, options, retries - 1, backoff * 2);
+                    }
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response;
+            } catch (error) {
+                if (retries > 0) {
+                    await new Promise(r => setTimeout(r, backoff));
+                    return fetchWithRetry(url, options, retries - 1, backoff * 2);
+                }
+                throw error;
+            }
+        }
+
+        async function callGemini(promptTemplate, elementId, btnId, loadingText, inputValue) {
+            const resultDiv = document.getElementById(elementId);
+            const btn = document.getElementById(btnId);
+
+            if(!inputValue || inputValue.trim().length < 3) { 
+                alert(currentLang === 'ar' ? "الرجاء إدخال نص صحيح" : "Please enter valid text"); return; 
+            }
+            
+            btn.disabled = true;
+            btn.innerHTML = `<i data-lucide="loader-2" class="animate-spin w-5 h-5"></i> ${loadingText}...`;
+            lucide.createIcons();
+            
+            resultDiv.classList.remove('hidden');
+            resultDiv.innerHTML = '<div class="animate-pulse-fast flex space-y-3 flex-col p-2"><div class="h-3 bg-slate-300 dark:bg-slate-700 rounded w-3/4"></div><div class="h-3 bg-slate-300 dark:bg-slate-700 rounded w-1/2"></div><div class="h-3 bg-slate-300 dark:bg-slate-700 rounded w-full"></div></div>';
+
+            try {
+                if (!apiKey) {
+                    await new Promise(r => setTimeout(r, 1200)); 
+                    let mockResponse = "";
+                    if (elementId === 'titleResult') mockResponse = getMockTitleResponse(inputValue, currentLang);
+                    else if (elementId === 'contentResult') mockResponse = getMockContentResponse(inputValue, currentLang);
+                    else if (elementId === 'faqResult') mockResponse = getMockFAQResponse(inputValue, currentLang);
+                    else mockResponse = getMockMetaResponse(inputValue, currentLang);
+                    
+                    resultDiv.innerHTML = marked.parse(mockResponse);
+                    resultDiv.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+                } else {
+                    const finalPrompt = promptTemplate.replace('{input}', inputValue).replace('{lang}', currentLang === 'ar' ? 'Arabic' : 'English');
+                    const response = await fetchWithRetry(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`, {
+                        method: 'POST', headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ contents: [{ parts: [{ text: finalPrompt }] }] })
+                    });
+                    const data = await response.json();
+                    if (data.error) throw new Error(data.error.message);
+                    resultDiv.innerHTML = marked.parse(data.candidates[0].content.parts[0].text);
+                    resultDiv.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+                }
+            } catch (error) {
+                console.error(error);
+                resultDiv.innerHTML = `<div class="text-red-500 text-sm p-2">${currentLang === 'ar' ? 'عذراً، حدث خطأ في الاتصال.' : 'Sorry, connection error.'}</div>`;
+            } finally {
+                btn.disabled = false;
+                let btnKey = 'tool1_btn';
+                if (btnId === 'contentBtn') btnKey = 'tool2_btn';
+                if (btnId === 'metaBtn') btnKey = 'tool3_btn';
+                if (btnId === 'faqBtn') btnKey = 'tool4_btn';
+                
+                const btnText = translations[currentLang][btnKey];
+                btn.innerHTML = `<span data-i18n="${btnKey}">${btnText}</span><i data-lucide="sparkles" class="w-4 h-4"></i>`;
+                lucide.createIcons();
+            }
+        }
+
+        function analyzeTitle() {
+            const input = document.getElementById('titleInput').value;
+            const loadingText = currentLang === 'ar' ? 'جاري التحليل' : 'Analyzing';
+            const prompt = "Act as an expert SEO copywriter. Analyze this headline: '{input}'. Language: {lang}. Provide score /10, critique, and 3 better variations in Markdown.";
+            callGemini(prompt, 'titleResult', 'titleBtn', loadingText, input);
+        }
+
+        function generateIdeas() {
+            const input = document.getElementById('nicheInput').value;
+            const loadingText = currentLang === 'ar' ? 'جاري التفكير' : 'Thinking';
+            const prompt = "Act as an SEO strategist. Suggest 3 content ideas for the niche: '{input}'. Language: {lang}. Include title and user intent in Markdown.";
+            callGemini(prompt, 'contentResult', 'contentBtn', loadingText, input);
+        }
+
+        function generateMeta() {
+            const input = document.getElementById('metaInput').value;
+            const loadingText = currentLang === 'ar' ? 'جاري الكتابة' : 'Writing';
+            const prompt = "Act as an SEO expert. Write a compelling meta description (max 160 chars) for a page about: '{input}'. Language: {lang}. Include a call to action. Format in Markdown.";
+            callGemini(prompt, 'metaResult', 'metaBtn', loadingText, input);
+        }
+        
+        function generateFAQ() {
+            const input = document.getElementById('faqInput').value;
+            const loadingText = currentLang === 'ar' ? 'جاري الإنشاء' : 'Generating';
+            const prompt = "Act as an SEO expert. Create 3 frequently asked questions (FAQs) with optimized answers for the topic: '{input}'. Language: {lang}. Format in Markdown.";
+            callGemini(prompt, 'faqResult', 'faqBtn', loadingText, input);
+        }
+    </script>
+</body>
+</html>
